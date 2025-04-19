@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李忠杨的网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8a6666;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgb(217, 231, 237);
+            padding: 80px;
+        }
+        header {
+            background: rgba(24, 183, 183, 0.2); /* 修复颜色代码错误 */
+            color: #7139d8;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        footer {
+            background: #0333; /* 修复颜色代码错误 */
+            color: #3a3232;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人（李忠杨）网站</h1>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>关于我</h2>
+            <p>你好，我是李忠杨，一名2025年毕业的学生。我喜欢编写代码，探索新技术。</p >
+        </div>
+
+        <div class="content">
+            <h2>我的技能</h2>
+            <ul>
+                <li>基础编程</li>
+                <li>整车质量检测</li>
+                <li>汽车维修（获得过四级工程师证书）</li>
+                <li>基础的电脑知识</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>联系方式：15941514788</h2>
+            <p>邮箱: zhangsan@example.com</p >
+        </div>
+    </div>
+
+    <footer>
+        <p>版权所有 &copy; 李忠杨</p >
+    </footer>
+</body>
+</html>
